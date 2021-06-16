@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 006e75b60da676a4dabc4e0637097a01, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  typeOfGun: 1
+  nameOfGun: Pistol
+  damage: 12
+  reloadTime: 3
+  ammo: 50
+  clipsize: 7
+  fireRate: 0.2
+  recoil: 2
+  bloom: 0.13
+  bloomWhenIsAiming: 0.05
+  kickback: 0.1
+  aimSpeed: 20
+  bulletSpeed: 30
+  prefabGun: {fileID: 1016544413731865524, guid: 6beeb0b6b1a173b418aeb42ec6e8de39, type: 3}
+  prefabBullet: {fileID: 4207797937364885644, guid: b23c94537fb928244a572066a14025ca, type: 3}
+  prefabBulletImpact: {fileID: 7257108709383871412, guid: 1c5754e5928a93c4ba8914cb8eb35602, type: 3}
+  prefabCrosshair: {fileID: 8838473927881899513, guid: 72e46977677aa994e966d89254900b0b, type: 3}
+  Aiming: 1
+  allowButtonHold: 0
+  isMIne: 1
+  gunShotSound: {fileID: 8300000, guid: 66e9f807e7b96b04280d9f83a07e1a90, type: 3}
+  reloadSound: {fileID: 8300000, guid: 668cd011afeb88343b0e2138088ee9e9, type: 3}
+  pitchRand: 0.015
+  volumeShot: 0.5
+  volumeReload: 0.5
